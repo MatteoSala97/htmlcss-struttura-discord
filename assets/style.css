@@ -6,4 +6,37 @@
     border: 1px solid black;
  }
 
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
 
+.flex-ul{
+    list-style-type: none;
+}
+
+.logo, .button{
+    flex-basis: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    padding-inline: 1em;
+}
+
+p{
+    line-height: 150%
+}
+
+div h1, p, .download-links{
+    text-align: center;
+}
