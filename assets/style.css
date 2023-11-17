@@ -14,7 +14,7 @@ header{
 }
 
 .hero{
-    background-color: lightcyan;
+    background-color: #0fd7cd;
     height: 300px;
 }
 .flex-ul{
@@ -74,9 +74,13 @@ div h1, p {
     flex-basis: 40%;
     padding-inline: 5em;
 }
+figure{
+    background-color: lightgreen;
+}
 
 .text{
     text-align: center;
+    background-color: lightpink;
 }
 
 .download-links a{
@@ -89,3 +93,35 @@ div h1, p {
 .ending-section{
     text-align: center;
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav{
+    display: flex; 
+}
+
+.footer-nav div ul{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+#language{
+    width: 100px;
+    height: 50px;
+}
+
+.footer-nav div ul li{
+    list-style-type: none;
+    
+}
+
+/* .footer-nav div{
+    display: flex;
+    flex-basis: 30%;
+} */
+
+
+
