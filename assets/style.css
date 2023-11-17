@@ -48,12 +48,29 @@ div h1, p {
     justify-content: space-around;
     list-style-type: none;
 }
+
 .download-links ul li{
     padding-inline: 1em;
 }
+
 .download-links ul li a {
     text-decoration: none;
     background-color: lightblue;
     border-radius: 15px;
     padding: 10px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
+}
+
+.right-text, figure{
+    flex-basis: 40%;
+    padding-inline: 5em;
+}
+
+.right-text{
+    text-align: center;
 }
