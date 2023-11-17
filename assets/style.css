@@ -34,9 +34,26 @@ nav ul li{
 }
 
 p{
-    line-height: 150%
+    line-height: 150%;
+    padding-block: 1em;
 }
 
-div h1, p, .download-links{
+div h1, p {
     text-align: center;
+}
+
+.download-links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.download-links ul li{
+    padding-inline: 1em;
+}
+.download-links ul li a {
+    text-decoration: none;
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 10px;
 }
