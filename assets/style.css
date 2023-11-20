@@ -8,6 +8,7 @@
 body {
     padding: 5em;
 }
+
 header{
     display: flex;
     justify-content: space-around;
@@ -23,6 +24,7 @@ header{
 li{
     list-style-type: none;
 }
+
 a{
     text-decoration: none;
 }
@@ -40,18 +42,19 @@ a{
 
 .nav-links ul{
     display: flex;
+    gap: 1em;
 }
 
 .nav-links ul li{
     list-style-type: none;
-    padding-inline: 1em;
+    /* padding-inline: 1em; */
 }
 
 p{
     line-height: 150%;
     padding-block: 1em;
 }
-
+/* qui dovrebbe bastare text align center eliminando quello scritto sopra */
 div h1, p {
     text-align: center;
 }
@@ -81,6 +84,7 @@ div h1, p {
     flex-basis: 40%;
     padding-inline: 5em;
 }
+
 figure{
     background-color: lightgreen;
 }
